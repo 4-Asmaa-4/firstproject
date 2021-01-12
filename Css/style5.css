@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(245, 232, 209);
+}
+.A{
+    background-color: rgb(136, 136, 136);;
+    width: 100%;
+    height: 70px;
+    padding-top: 3px;
+    padding-bottom: 10px;
+}   
+.A img{
+    width: 78px;
+    padding-left: 20px;
+    float: left;
+}
+.A ul{
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+}
+.A ul li{
+
+    padding: 0;
+}
+.A ul li .link{
+    color: rgb(238,133, 224);
+    text-shadow:2px 1px 2px white;
+    float:right;
+    padding-right: 30px;
+    padding-left: 0;
+}
+.A ul li a{
+    color: white;
+    float: left;
+    text-decoration: none;
+    text-shadow:2px 1px 2px crimson;
+    font-size: 22px;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+.A ul li a:hover{
+    color: rgb(255, 208, 0);
+}
+.B{
+    background-image: url(..//images/header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 80vh;
+}
+.B h1{
+    color: rgb(145, 143, 143);
+    font-size: 50px;
+    padding-top: 150px;
+    padding-left: 20px;
+    text-shadow: 4px 3px 2px black;
+}
+.B p{
+    background-color: red;
+    width: 150px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 35px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+}
+.B p :hover{
+    color: lightseagreen;
+}
+.B p a{
+    display: inline-block;
+    color: rgb(255, 255, 0);
+    text-shadow: 2px 2px 5px black;
+    font-size: 20px;
+    text-decoration: none;
+}
+h2{
+    color: rgb(145, 143, 143);
+    font-size: 40px;
+    word-spacing: 10px;
+    text-align: center;
+    margin-top: 50px;
+    text-shadow:3px 2px 1px black;
+    margin-bottom: 50px;
+}
+.C table {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 60px;
+    border: solid 2px black;
+    border-collapse: collapse;
+}
+.C table th,td{
+    border: solid 2px black;
+    padding: 20px 0px;
+    font-size: 20px;
+}
+.C img{
+    width: 70px;
+}
+tr:nth-child(even){
+    background-color:gray;
+}
+tr:nth-child(odd){
+    color: gray;
+}

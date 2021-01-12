@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(173, 173, 173);
+}
+.A{
+    background-color: rgb(15, 15, 15);
+    width: 90%;
+    height: 90px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+.A img{
+    width: 65px;
+    padding-top: 13px;
+    padding-left: 20px;
+    float: left;
+}
+.A ul{
+    list-style: none;
+    overflow: hidden;
+    padding: 0;
+    padding-left: 20px;
+}
+.A ul a{
+    color: white;
+    float: left;
+    padding: 10px;
+    text-decoration: none;
+    margin-top: 25px;
+    font-size: 23px;
+    margin-left: 15px;
+    text-shadow:2px 1px 2px gray;
+}
+.A ul a:hover{
+    color: crimson;
+    background-color: mediumturquoise;
+    border-radius: 15px;
+}
+.A ul li .link{
+    float: right;
+    margin-right: 15px;
+    background-color: darkorange;
+    border-radius: 15px;
+}
+.A ul li .link:hover{
+    color: darkorange;
+    background-color: white;
+}
+.B{
+    background-image: url(../images/back-ground.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 90%;
+    height: 60vh;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 15px;
+    text-align: center;
+}
+.B h1{
+    color: white;
+    width: 100vh;
+    height: 60px;
+    margin: auto;
+    padding-top: 70px;
+    font-size: 40px;
+    margin-top: 40px;
+    text-shadow:3px 2px 4px black;
+}
+.B p{
+    margin-left: 440px;
+    margin-top: 40px;
+}
+.B p a{
+    color: gray;
+    background-color: rgb(245, 200, 170);
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    float: left;
+    overflow: hidden;
+    width: 130px;
+    height: 30px;
+    margin-left: 30px;
+    padding-top: 9px;
+}
+.B p a:hover{
+    color: rgb(245, 200, 170);
+    background-color: gray;
+}
+.C{
+    float: left;
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    margin-top: 40px;
+    margin-left: 150px;
+    margin-bottom: 20px;
+    padding: 0px 10px;
+    padding-top: 25px;
+    border-radius: 15px;
+    position: relative;
+}
+.C h2{
+    color: gray;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.C .C1{
+    width: 180px;
+    position: absolute;
+    left: 65px;
+}
+.C .C2{
+    width: 100px;
+    position: absolute;
+    top: 265px;
+    left: 63px;
+}
+.C .C3{
+    width: 100px;
+    position: absolute;
+    top: 265px;
+    left: 157px;
+}
+.C .C4{
+    position: absolute;
+    top: 425px;
+    left: 94px;
+}
+.C .C5{
+    position: absolute;
+    top: 425px;
+    left: 189px;
+}
+.C a{
+    color:  rgb(245, 200, 170);
+    background-color:  gray;
+    font-size: 17px;
+    text-decoration: none;
+    position: absolute;
+    top: 460px;
+    left: 115px;
+    padding: 12px;
+    border-radius: 15px;
+}
+.C a:hover{
+    color: gray;
+    background-color:  rgb(245, 200, 170);
+}
+
+
+
+
+.D{
+    float: left;
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    padding: 0px 10px;
+    padding-top: 25px;
+    border-radius: 15px;
+    position: relative;
+}
+.D h2{
+    color: gray;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.D .D1{
+    width: 180px;
+    height: 33vh;
+    position: absolute;
+    left: 65px;
+}
+.D .D2{
+    width: 100px;
+    position: absolute;
+    top: 310px;
+    left: 63px;
+}
+.D .D3{
+    width: 100px;
+    position: absolute;
+    top: 310px;
+    left: 157px;
+}
+.D .D4{
+    position: absolute;
+    top: 425px;
+    left: 94px;
+}
+.D .D5{
+    position: absolute;
+    top: 425px;
+    left: 189px;
+}
+.D a{
+    color:  rgb(245, 200, 170);
+    background-color:  gray;
+    font-size: 17px;
+    text-decoration: none;
+    position: absolute;
+    top: 460px;
+    left: 115px;
+    padding: 12px;
+    border-radius: 15px;
+}
+.D a:hover{
+    color: gray;
+    background-color:  rgb(245, 200, 170);
+}
+
+
+
+
+
+.E{
+    float: left;
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-bottom: 60px;
+    padding: 0px 10px;
+    padding-top: 25px;
+    border-radius: 15px;
+    position: relative;
+}
+.E h2{
+    color: gray;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.E .E1{
+    width: 180px;
+    height: 33vh;
+    position: absolute;
+    left: 65px;
+}
+.E .E2{
+    width: 100px;
+    position: absolute;
+    top: 310px;
+    left: 63px;
+}
+.E .E3{
+    width: 100px;
+    position: absolute;
+    top: 310px;
+    left: 157px;
+}
+.E .E4{
+    position: absolute;
+    top: 425px;
+    left: 94px;
+}
+.E .E5{
+    position: absolute;
+    top: 425px;
+    left: 189px;
+}
+.E a{
+    color:  rgb(245, 200, 170);
+    background-color:  gray;
+    font-size: 17px;
+    text-decoration: none;
+    position: absolute;
+    top: 460px;
+    left: 115px;
+    padding: 12px;
+    border-radius: 15px;
+}
+.E a:hover{
+    color: gray;
+    background-color:  rgb(245, 200, 170);
+}
+
+.F{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.F table{
+    border: solid 2px black;
+    border-collapse: collapse;
+    margin: auto;
+    width: 80%;
+}
+.F table th,td{
+    border: solid 2px black;
+    padding: 10px 0px;
+}
+.F th{
+    background-color: rgb(245, 200, 170);
+}
+.F .F1:nth-child(even){
+    background-color: white;
+}
+.F .F1:nth-child(odd){
+    background-color: rgb(150, 233, 194);
+}
+.F img{
+    width: 100px;
+}
+

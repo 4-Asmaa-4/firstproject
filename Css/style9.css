@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: blueviolet;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*container*/
+.container{
+    width: 90%;
+    margin: auto;
+}
+/*grid*/
+.col-1{
+    width: 8.33%;
+}
+.col-2{
+    width: 16.66%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 28.33%;
+}
+.col-5{
+    width: 41.66%;
+}
+.col-6{
+    width: 49%;
+}
+.col-7{
+    width: 58.33%;
+}
+.col-8{
+    width: 66.66%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83.33%;
+}
+.col-11{
+    width: 91.66%;
+}
+.col-12{
+    width: 100%;
+}
+[class*="col-"]{
+    float: left;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.margin{
+    margin-top: 120px;
+}
+
+/* section1 */
+.section1 .row .left{
+    background-color: brown;
+    text-align: center;
+}
+.section1 .row .left img{
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+.section1 .row .left .enter{
+    margin-left: 55px;
+}
+.section1 .row .left ul{
+    background-color: cadetblue;
+    list-style: none;
+    width: 70vh;
+    text-align: center;
+    font-size: 25px;
+}
+.section1 .row .left .ul li{
+    font-size: 50px;
+}

@@ -1,0 +1,350 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*container*/
+.container{
+    width: 90%;
+    margin: auto;
+}
+/*grid*/
+.col-1{
+    width: 8.33%;
+}
+.col-2{
+    width: 16.66%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 28.33%;
+}
+.col-5{
+    width: 41.66%;
+}
+.col-6{
+    width: 49%;
+}
+.col-7{
+    width: 58.33%;
+}
+.col-8{
+    width: 66.66%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83.33%;
+}
+.col-11{
+    width: 91.66%;
+}
+.col-12{
+    width: 100%;
+}
+[class*="col-"]{
+    float: left;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.margin{
+    margin-top: 120px;
+}
+
+/* nav section */
+
+.nav{
+    padding: 10px 0;
+    margin-bottom: 45px;
+    
+    
+}
+.nav a img{
+    width: 90px;
+    float: left;
+}
+.nav ul{
+    list-style: none;
+    float: right;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.nav ul li{
+    float: left;
+    margin-left: 20px;
+}
+.nav ul li a{
+    color: #111;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+.nav ul li .active{
+    color: rgb(13, 133, 202);
+}
+.nav ul li a:hover:not(.active){
+    color: rgb(13, 133, 202);
+}
+.nav ul li .active1{
+    background-color: rgb(99, 242, 247);
+    color: white;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+/* content section */
+
+.header .content1{
+    text-align: center;
+}
+.header .content1 h1{
+    color: rgb(110, 110, 110);
+    letter-spacing: 5px;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+.header .content1 p{
+    font-size: 25px;
+    color: rgb(206, 206, 206);
+}
+.div1 h2{
+    font-size: 20px;
+    color: rgb(141, 141, 141);
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+.div1 p{
+    color: rgb(105, 105, 105);
+    font-size: 20px;
+    line-height: 20px;
+    word-spacing: 3px;
+    margin-bottom: 35px;
+}
+.div1 .p1{
+    width: 150px;
+    height: 40px;
+    padding-top: 7px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+.div1 .a1{
+    font-size: 17px;
+    color: rgb(136, 136, 136);
+    text-decoration: none;
+}
+.div1 .p1:hover{
+    background-color: rgb(249, 251, 252);
+}
+.div1 .h2{
+    margin-top: 50px;
+}
+.div1 ul li{
+    list-style: none;
+    margin-bottom: 7px;
+    margin-top: 20px;
+}
+.div1 ul li a{
+    font-size: 17px;
+    color: dodgerblue;
+}
+.div1 ul li a:hover{
+    text-decoration: none;
+}
+.div2{
+    margin-left: 50px;
+}
+.div2 h2{
+    color: rgb(140, 140 ,140);
+    margin-bottom: 30px;
+    word-spacing: 5px;
+}
+.div2 img{
+    width: 750px;
+    height: 55vh;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.div2 p{
+    color: grey;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.header .row{
+    margin-bottom: 30px;
+}
+
+/* str section */
+
+.str{
+    margin-top: 50px;
+}
+.str .div3 img{
+    width: 568px;
+    height: 257px;
+    border-radius: 5px;
+}
+.str .div3 h2{
+    margin-top: 30px;
+    text-align: center;
+    color: rgb(167, 167, 167);
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.str .div3 .p3{
+    text-align: center;
+    margin-bottom: 45px;
+    color: rgb(141, 141, 141);
+}
+.str .div3 .p4{
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    padding-top: 10px;
+    margin-left: 200px;
+    background-color: white;
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+.str .div3 .p4 a{
+    text-decoration: none;
+    font-size: 17px;
+    color: rgb(136, 136, 136);
+}
+
+
+.str .div4{
+    margin-left: 20px;
+}
+.str .div4 img{
+    width: 568px;
+    height: 257px;
+    border-radius: 5px;
+}
+.str .div4 h2{
+    margin-top: 30px;
+    text-align: center;
+    color: rgb(167, 167, 167);
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.str .div4 .p3{
+    text-align: center;
+    margin-bottom: 45px;
+    color: rgb(141, 141, 141);
+}
+.str .div4 .p4{
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    padding-top: 10px;
+    margin-left: 200px;
+    background-color: white;
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+.str .div4 .p4 a{
+    text-decoration: none;
+    font-size: 17px;
+    color: rgb(136, 136, 136);
+}
+
+/* footer section */
+
+.foot{
+    background-color: rgb(37, 34, 34);
+}
+.foot .div1{
+    padding-top: 60px;
+    padding-bottom: 40px;
+    margin: 0px 40px;
+    position: relative;
+}
+.foot .div1 .about h6{
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.foot .div1 .about p{
+    color: #888;
+}
+.foot .div1 .features{
+    text-align: center;
+}
+.foot .div1 .features h6{
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.foot .div1 .features a{
+    display: block;
+    font-size: 15px;
+    margin-bottom: 8px;
+    text-decoration: none;
+    color: #888;
+}
+.foot .div1 .followUs h6{
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+.foot .div1 .followUs ul{
+   margin-left: -15px;
+}
+.foot .div1 .followUs li{
+    display: inline;
+    margin: 10px;
+}
+.foot .div1 .followUs li a{
+    color: rgb(43, 226, 226);
+}
+.foot .div1 .subscribe h6{
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+.foot .div1 .subscribe input[type=email]{
+    position: absolute;
+    top: 150px;
+    left: 1070px;
+    transform: translate(-50%,-50%);
+    padding: 15px 30px;
+    background-color: rgb(255, 255, 255);
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+.foot .div1 .subscribe .sub2{
+    position: absolute;
+    top: 210px;
+    left: 85%;
+    transform: translate(-50%,-50%);
+    padding: 10px 20px;
+    background-color: rgb(13, 133, 202);
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer; 
+}

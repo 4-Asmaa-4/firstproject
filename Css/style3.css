@@ -1,0 +1,130 @@
+body{
+    background-image: url(images/WhatsApp\ Image\ 2020-10-02\ at\ 12.04.55\ AM.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    padding-top: 20px;
+}
+.nav a{
+    text-decoration: none;
+    color: rgb(255,215,0);
+    font-size: 30px;
+    padding-left: 25px;
+    text-shadow: 2px 2px 5px white;
+}
+.header{
+    margin-top: 100px;
+}
+.header h1{
+    color: rgb(0,255,255);
+    word-spacing: 60px;
+    text-shadow: 4px 3px 4px white;
+    text-align: center;
+}
+span{
+    color: rgb(250, 195, 75);
+    text-shadow: 6px 5px 5px rgb(247, 215, 76);
+}
+.Im{
+    text-align: center;
+}
+.Im img{
+    border-radius:50% ;
+    width: 70%;
+    height: 50vh;
+    margin-top: 25px;
+}
+.link{
+    padding-top: 60px;
+    font-size: 25px;
+}
+.link a{
+    background-color: rgb(247,181,16);
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 330px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.h{
+    background-color: rgb(218,165,32);
+    text-align: center;
+    margin: auto;
+    margin-top: 70px;
+    padding-top: 35px;
+    padding-bottom: 45px;
+    width: 30%;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+.h h2{
+    font-size: 30px;
+    color: rgb(0,255,255);
+    text-shadow: 2px 2px 3px white;
+    padding-bottom: 13px;
+    
+}
+.h img{
+    width: 65%;
+}
+.h p{
+    padding-top: 20px;
+}
+.h p a{
+    font-size: 20px;
+    text-decoration: none;
+}
+.head{
+    text-align: center;
+}
+.head img{
+    width: 45%;
+    margin-top: 50px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.k{
+    background-color: rgb(218,165,32);
+    text-align: center;
+    margin: auto;
+    margin-top: 70px;
+    padding-top: 35px;
+    padding-bottom: 45px;
+    width: 30%;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+.k h2{
+    font-size: 30px;
+    color: rgb(0,255,255);
+    text-shadow: 2px 2px 3px white;
+    padding-bottom: 13px; 
+}
+.k img{
+    width: 65%;
+}
+.k p a{
+    font-size: 20px;
+    text-decoration: none; 
+}
+.b{
+    text-align: center;
+}
+.b img{
+    width: 45%;
+    margin-top: 50px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+
